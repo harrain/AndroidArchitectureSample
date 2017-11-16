@@ -2,6 +2,7 @@
 
 - 本库将用来做各种Android App架构的练习汇总。长期更新...
 
+    - dagger2入门demo。    ---[讲解博客地址](http://www.jianshu.com/p/b57127b055e6)
 
 
 
