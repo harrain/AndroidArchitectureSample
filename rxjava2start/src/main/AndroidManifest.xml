@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rxjava2start">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".theory.Rx2MainActivity" />
+        <activity android:name=".theory.GettingStartedActivity" />
+        <activity android:name=".theory.CreateOperatorActivity" />
+        <activity android:name=".theory.TransferOperatorActivity" />
+        <activity android:name=".theory.CombineOperatorActivity" />
+        <activity android:name=".theory.FunctionalOperatorActivity" />
+        <activity android:name=".theory.FilterOperatorActivity" />
+        <activity android:name=".example.netPolling.PollingActivity" />
+        <activity android:name=".example.Rx2ExampleActivity" />
+        <activity android:name=".LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".example.nestedNR.NestedNetRequstActivity" />
+        <activity android:name=".example.combineData.CombineDataSourceActivity" />
+        <activity android:name=".example.twolevelcache.CacheSimulationActivity" />
+        <activity android:name=".example.coojudge.CooJudgeActivity"></activity>
+    </application>
+
+</manifest>
