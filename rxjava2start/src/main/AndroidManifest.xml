@@ -30,7 +30,8 @@
         <activity android:name=".example.nestedNR.NestedNetRequstActivity" />
         <activity android:name=".example.combineData.CombineDataSourceActivity" />
         <activity android:name=".example.twolevelcache.CacheSimulationActivity" />
-        <activity android:name=".example.coojudge.CooJudgeActivity"></activity>
+        <activity android:name=".example.coojudge.CooJudgeActivity" />
+        <activity android:name=".example.conditionalNP.ConditionalNetPollingActivity"></activity>
     </application>
 
 </manifest>

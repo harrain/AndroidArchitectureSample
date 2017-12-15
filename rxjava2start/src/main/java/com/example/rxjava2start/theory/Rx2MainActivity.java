@@ -33,7 +33,7 @@ public class Rx2MainActivity extends AppCompatActivity {
         mList.add(new MainDM("rx变换操作符：map flatMap concatMap buffer",new Intent(this,TransferOperatorActivity.class)));
         mList.add(new MainDM("rx合并操作符：concat merge zip combineLatest reduce collect startWith count",new Intent(this,CombineOperatorActivity.class)));
         mList.add(new MainDM("rx功能操作符：doxxx onErrorReturn retry repeat",new Intent(this,FunctionalOperatorActivity.class)));
-        mList.add(new MainDM("rx过滤操作符：filter ofType skip distinct take throttle",new Intent(this,FilterOperatorActivity.class)));
+        mList.add(new MainDM("rx过滤操作符：filter ofType skip distinct take throttle sample debounce element",new Intent(this,FilterOperatorActivity.class)));
         adapter.notifyDataSetChanged();
     }
 

@@ -13,6 +13,7 @@ import com.example.rxjava2start.MainDM;
 import com.example.rxjava2start.OnItemClickListener;
 import com.example.rxjava2start.R;
 import com.example.rxjava2start.example.combineData.CombineDataSourceActivity;
+import com.example.rxjava2start.example.conditionalNP.ConditionalNetPollingActivity;
 import com.example.rxjava2start.example.coojudge.CooJudgeActivity;
 import com.example.rxjava2start.example.nestedNR.NestedNetRequstActivity;
 import com.example.rxjava2start.example.netPolling.PollingActivity;
@@ -37,6 +38,7 @@ public class Rx2ExampleActivity extends AppCompatActivity {
         mList.add(new MainDM("合并数据源，有机组合，同时展示",new Intent(this,CombineDataSourceActivity.class)));
         mList.add(new MainDM("从二级缓存及网络获取数据",new Intent(this,CacheSimulationActivity.class)));
         mList.add(new MainDM("联合判断多个事件",new Intent(this,CooJudgeActivity.class)));
+        mList.add(new MainDM("（有条件）网络请求轮询",new Intent(this,ConditionalNetPollingActivity.class)));
         adapter.notifyDataSetChanged();
     }
 
