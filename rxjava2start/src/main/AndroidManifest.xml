@@ -31,7 +31,10 @@
         <activity android:name=".example.combineData.CombineDataSourceActivity" />
         <activity android:name=".example.twolevelcache.CacheSimulationActivity" />
         <activity android:name=".example.coojudge.CooJudgeActivity" />
-        <activity android:name=".example.conditionalNP.ConditionalNetPollingActivity"></activity>
+        <activity android:name=".example.conditionalNP.ConditionalNetPollingActivity" />
+        <activity android:name=".example.errorReconnection.ErrorReconnectActivity" />
+        <activity android:name=".example.taskOnly.TaskOnlyActivity" />
+        <activity android:name=".example.associationSearchOptimize.AssociationSearchOptimizedActivity"></activity>
     </application>
 
 </manifest>
