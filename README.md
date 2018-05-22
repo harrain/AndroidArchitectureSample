@@ -3,7 +3,7 @@
 - 本库将用来做各种Android App架构的练习汇总。长期更新...
 
     - [dagger2入门demo](https://github.com/harrain/AndroidArchitectureSample/tree/master/Dagger2Sample)。    ---[讲解博客地址](http://www.jianshu.com/p/b57127b055e6)
-    - [mvp-todo](https://github.com/harrain/AndroidArchitectureSample/tree/master/mvp-todo)            ---googlesample的mvp-todo精简版，更容易理解
+    - [mvp-todo](https://github.com/harrain/AndroidArchitectureSample/tree/master/mvp-todo)            ---[googlesample的mvp-todo](https://github.com/googlesamples/android-architecture/tree/todo-mvp/)精简版，更容易理解
     - [rxjava2start](https://github.com/harrain/AndroidArchitectureSample/tree/master/rxjava2start)        ---rxjava2的使用方法和应用场景
 
 
